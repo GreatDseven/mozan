@@ -92,7 +92,7 @@
         </div>
       </div>
       <div class="section-bottom clearfix">
-        <router-link to="/Cart">立即订阅</router-link>
+        <router-link :to="$publicUrl + '/cart'">立即订阅</router-link>
 
         <img src="../assets/images/section_1.jpg" alt />
         <img src="../assets/images/section_2.jpg" alt />

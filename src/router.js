@@ -17,7 +17,7 @@ export default new VueRouter({
       component: Section
     },
     {
-      path: '/cart',
+      path: PUBLICURL + '/cart',
       component: Cart
     },
     {
