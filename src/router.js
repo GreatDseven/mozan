@@ -8,11 +8,12 @@ import Pay from './components/Pay.vue'
 import PayDone from './components/PayDone.vue'
 import Qr from './components/Qr.vue'
 import SuccessPay from './components/SuccessPay.vue'
+import PUBLICURL from './publicurl'
 Vue.use(VueRouter)
 export default new VueRouter({
   routes: [
     {
-      path: '/',
+      path: PUBLICURL + '/',
       component: Section
     },
     {
