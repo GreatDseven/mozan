@@ -8,7 +8,7 @@
           <div class="bar"></div>
         </div>
         <div class="nav-logo">
-          <router-link to="/">
+          <router-link :to="$publicUrl + '/'">
             <img src="http://image.morethan.cc/template/index/default/index1/images1/logo.png" alt />
           </router-link>
         </div>

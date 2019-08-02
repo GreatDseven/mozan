@@ -232,7 +232,7 @@
           <span>=</span>
           <span>{{goodsMoney.momeytotal}}</span>
         </div>
-        <router-link to="/pay">提交订单</router-link>
+        <router-link :to="$publicUrl + '/pay'">提交订单</router-link>
       </div>
     </div>
   </div>

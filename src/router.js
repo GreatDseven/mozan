@@ -21,27 +21,27 @@ export default new VueRouter({
       component: Cart
     },
     {
-      path: '/shopping',
+      path: PUBLICURL + '/shopping',
       component: Shopping
     },
     {
-      path: '/order',
+      path: PUBLICURL + '/order',
       component: Order
     },
     {
-      path: '/pay',
+      path: PUBLICURL + '/pay',
       component: Pay
     },
     {
-      path: '/paydone',
+      path: PUBLICURL + '/paydone',
       component: PayDone
     },
     {
-      path: '/qr',
+      path: PUBLICURL + '/qr',
       component: Qr
     },
     {
-      path: '/successPay',
+      path: PUBLICURL + '/successPay',
       component: SuccessPay
     }
   ],

@@ -56,7 +56,7 @@
           </div>
           <img src="../assets/qr.png" alt />
           <div class="sao">
-            <router-link to="/paydone">请使用微信扫一扫扫描二维码支付！</router-link>
+            <router-link :to="$publicUrl + '/paydone'">请使用微信扫一扫扫描二维码支付！</router-link>
           </div>
         </div>
         <img src="../assets/qrweixin.png" alt class="phone" />

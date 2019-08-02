@@ -20,7 +20,7 @@
         </div>
         <div class="cart-med-4">
           <router-link to="/">返回</router-link>
-          <router-link to="/shopping">去购物车结算</router-link>
+          <router-link :to="$publicUrl + '/shopping'">去购物车结算</router-link>
         </div>
       </div>
     </div>
